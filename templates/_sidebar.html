@@ -1,0 +1,7 @@
+<aside class="sidebar">
+    <a href="{% url 'info:index' %}" 
+       class="{% if request.resolver_match.url_name == 'index' %}active{% endif %}" 
+       title="Hub">
+        🌀
+    </a>
+</aside>
