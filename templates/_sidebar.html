@@ -4,4 +4,9 @@
        title="Hub">
         🌀
     </a>
+    <a href="{% url 'sentiment:index' %}" 
+       class="{% if request.resolver_match.url_name == 'index' %}active{% endif %}" 
+       title="Hub">
+        🌀
+    </a>
 </aside>
